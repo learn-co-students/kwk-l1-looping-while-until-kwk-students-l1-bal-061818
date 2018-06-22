@@ -1,9 +1,9 @@
-def using_until
-  time = 6
+def until_alarm
+  time = 10
   until time == 10
     puts "Wingardium Leviosa"
   time += 1
   end
 end
 
-using_until
+until_alarm

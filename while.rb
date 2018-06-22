@@ -1,9 +1,9 @@
-def using_until
+def while_levitation
   time = 6
-  until time == 10
+  while time < 10
     puts "Wingardium Leviosa"
   time += 1
   end
 end
 
-using_until
+while_levitation
